@@ -1,0 +1,163 @@
+ .top-bar {
+         width: 100%;
+         background: linear-gradient(to right, #4facfe, #00f2fe);
+         padding: 20px 40px;
+         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+         text-align: center;
+         position: fixed;
+         top: 0;
+         left: 0;
+         z-index: 1000;
+         }
+         .top-bar h1 {
+         color: white;
+         font-size: 28px;
+         font-weight: 700;
+         letter-spacing: 1px;
+         text-transform: uppercase;
+         margin: 0;
+         }
+         /* Reset */
+         * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+         font-family: 'Segoe UI', sans-serif;
+         }
+         .Main_Box {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;
+         background: linear-gradient(to bottom right, #f0f4f8, #d9e2ec);
+         justify-content: space-evenly;
+         }
+         .Main_Box h2 {
+         font-size: 20px;
+         color: #2c3e50;
+         font-weight: 600;
+         text-transform: uppercase;
+         letter-spacing: 1px;
+         margin-top: 10px;
+         transition: color 0.3s ease;
+         }
+         .basket-container {
+         display: flex;
+         align-items: center;
+         gap: 30px;
+         }
+         .basket {
+         background-color: #fff;
+         padding: 30px 40px;
+         border-radius: 16px;
+         box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+         text-align: center;
+         transition: transform 0.3s ease;
+         }
+         .basket:hover {
+         transform: translateY(-5px);
+         }
+         .basket span {
+         display: block;
+         font-size: 32px;
+         font-weight: bold;
+         color: #1a73e8;
+         margin-bottom: 10px;
+         }
+         .controls {
+         display: flex;
+         flex-direction: column;
+         gap: 20px;
+         }
+         .arrow {
+         background-color: #1a73e8;
+         color: white;
+         border: none;
+         padding: 12px 16px;
+         font-size: 18px;
+         border-radius: 50%;
+         cursor: pointer;
+         transition: background 0.3s ease, transform 0.2s ease;
+         }
+         .arrow:hover {
+         background-color: #155ab6;
+         transform: scale(1.1);
+         }
+         /* Stylish Buttons */
+         .btn {
+         display: inline-flex;
+         align-items: center;
+         justify-content: center;
+         gap: 8px;
+         padding: 12px 24px;
+         background: linear-gradient(135deg, #4facfe, #00f2fe);
+         border: none;
+         border-radius: 50px;
+         color: white;
+         font-size: 16px;
+         font-weight: 600;
+         text-transform: uppercase;
+         letter-spacing: 1px;
+         cursor: pointer;
+         transition: all 0.3s ease;
+         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+         }
+         .btn:hover {
+         background: linear-gradient(135deg, #00f2fe, #4facfe);
+         transform: translateY(-2px);
+         box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+         }
+         .btn:active {
+         transform: scale(0.97);
+         }
+         .digits {
+         display: inline-block;
+         font-size: 36px;
+         font-weight: 700;
+         color: white;
+         background: linear-gradient(135deg, #00c6ff, #0072ff);
+         padding: 14px 28px;
+         border-radius: 12px;
+         box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+         margin-bottom: 15px;
+         transition: all 0.3s ease;
+         min-width: 96px;
+         text-align: center;
+         }
+         .digits:hover {
+         transform: scale(1.05);
+         box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+         }
+         /* Footer CSS Start  */
+         .footer_bar {
+         width: 100%;
+         background: #000000;
+         padding: 15px 20px;
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: center;
+         align-items: center;
+         font-size: 14px;
+         color: #555;
+         position: fixed;
+         bottom: 0;
+         left: 0;
+         box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.05);
+         flex-wrap: wrap; /* for small screens */
+         }
+         .footer_bar p{
+         color:#FFFFFF;
+         text-align: center;
+         }
+         .footer_bar a{
+           color:#FFFFFF
+         }
+         .footer_bar p{
+            color: #FFFFFF;
+            text-align: center;
+            line-height: 24px;
+       }
+         .container{
+         max-width: 1200px;
+         }
